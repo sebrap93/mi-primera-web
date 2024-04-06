@@ -3,32 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web Sencilla</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Portafolio de Carlos Ruiz</title>
+    <style>
+        /* Estilos para el cuerpo de la página */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #E4FDE1;
+        color: #333;
+    }
+
+    /* Estilos para el encabezado */
+    header {
+        background-color: #456990;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+        
+    }
+
+        header img {
+        width: 100px; /* Cambia 100px al ancho deseado */
+        height: auto; /* Esto asegura que la imagen mantenga su proporción */
+
+    }
+
+
+
+    /* Estilos para la barra de navegación */
+    nav {
+        background-color: #456990;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: inline;
+        margin: 0 10px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    /* Estilos para el contenido principal */
+    main {
+        padding: 20px;
+    }
+
+    /* Estilos para las secciones */
+    section {
+        margin-bottom: 30px;
+    }
+
+    /* Estilos para el pie de página */
+    footer {
+        background-color: #F45B69;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    </style>
 </head>
 <body>
 
     <header>
-        <h1>Mi Página Web Sencilla</h1>
+        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29tcHV0YWRvcnxlbnwwfHwwfHx8MA%3D%3D" alt="Texto alternativo de la imagen">
+        <h1>Portafolio de Carlos Ruiz</h1>
     </header>
 
     <nav>
         <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
         </ul>
     </nav>
 
     <main>
-        <section>
-            <h2>Bienvenido a mi página web</h2>
-            <p>Esta es una página web sencilla creada con HTML y CSS.</p>
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <p>Bienvenido al portafolio de Carlos Ruiz. Soy un apasionado desarrollador de software con experiencia en la creación de aplicaciones web innovadoras.</p>
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <p>Aquí puedes encontrar algunos de los proyectos en los que he trabajado:</p>
+            <ul>
+                <li>Proyecto 1</li>
+                <li>Proyecto 2</li>
+                <li>Proyecto 3</li>
+            </ul>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Puedes contactarme a través de los siguientes medios:</p>
+            <ul>
+                <li>Email: carlosruiz@example.com</li>
+                <li>Teléfono: 123-456-7890</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/carlosruiz" target="_blank">Perfil de LinkedIn</a></li>
+            </ul>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Mi Página Web Sencilla</p>
+        <p>&copy; 2024 Carlos Ruiz - Todos los derechos reservados.</p>
     </footer>
 
 </body>
