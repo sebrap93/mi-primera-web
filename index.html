@@ -21,11 +21,14 @@
         text-align: center;
         padding: 20px 0;
         
+        
     }
 
         header img {
         width: 100px; /* Cambia 100px al ancho deseado */
         height: auto; /* Esto asegura que la imagen mantenga su proporción */
+        display: block;
+        margin: 0 auto;
 
     }
 
@@ -62,6 +65,25 @@
     /* Estilos para las secciones */
     section {
         margin-bottom: 30px;
+        max-width: 400px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+
+    
+    ul {
+
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+
+    }  
+
+    li {
+        display: inline;
+        margin-right: 10px;
+
     }
 
     /* Estilos para el pie de página */
@@ -95,13 +117,15 @@
             <p>Bienvenido al portafolio de Carlos Ruiz. Soy un apasionado desarrollador de software con experiencia en la creación de aplicaciones web innovadoras.</p>
         </section>
 
-        <p>Sígueme en mis redes sociales:</p>
-    <ul class="redes-sociales">
-        <li><a href="https://www.facebook.com/tucuenta" target="_blank"><img src="facebook-icono.png" alt="Facebook"></a></li>
-        <li><a href="https://twitter.com/tucuenta" target="_blank"><img src="twitter-icono.png" alt="Twitter"></a></li>
-        <li><a href="https://www.instagram.com/tucuenta" target="_blank"><img src="instagram-icono.png" alt="Instagram"></a></li>
-        <!-- Añade más enlaces según necesites -->
-    </ul>
+    <section>
+            <p>Sígueme en mis redes sociales:</p>
+        <ul class="redes-sociales">
+            <li><a href="https://www.facebook.com/tucuenta" target="_blank"><img src="facebook-icono.png" alt="Facebook"></a></li>
+            <li><a href="https://twitter.com/tucuenta" target="_blank"><img src="twitter-icono.png" alt="Twitter"></a></li>
+            <li><a href="https://www.instagram.com/tucuenta" target="_blank"><img src="instagram-icono.png" alt="Instagram"></a></li>
+            <!-- Añade más enlaces según necesites -->
+        </ul>
+    </section>
 
         <section id="proyectos">
             <h2>Proyectos</h2>
